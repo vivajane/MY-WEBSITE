@@ -1,0 +1,122 @@
+*{
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(/Udemy-Courses/My-Website/images/img2.jpg) center no-repeat;
+    background-position-x: right;
+    background-size: 50%;
+    background-color: black;
+    max-width: 1400px;
+}
+.first{
+    height: 80vh;
+    padding: 0.4em;
+    margin: 3em;
+
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section ul{
+    display: flex;
+}
+section ul a{
+    padding: 30px;
+}
+section div:first-child{
+    color: rgb(179, 167, 167);
+    border-bottom: 30px;
+}
+ section nav ul a{
+    color: rgb(3, 3, 3);
+    margin: 2em;
+    background-color: brown;
+    border-radius: 7px;
+}
+main p{
+    color: rgb(255, 255, 255);
+}
+main h3{
+    color: azure;
+}
+main h3::first-line{
+    color: rgb(254, 167, 60);
+}
+p button{
+    background-color: rgb(216, 13, 13);
+    border: 0;
+    padding: 5px;
+    border-radius: 3px;
+}
+div button{
+    display: inline-block;
+    border: 1px solid rgb(216, 13, 13);
+    border-radius: 3px;
+    padding: 5px;
+}
+#classy{
+    display: flex;
+    align-items: center;
+    margin-top: 4em;
+}
+div ul{
+    display: flex;
+}
+div ul a{
+    padding: 10px;
+}
+.intro{
+    padding-bottom: 5em;
+    padding-top: 0;
+}
+.introduce{
+width: 60%;
+margin: 1.5em 0;
+}
+.fb{
+    background: url(/Flexbox/Nested-flex/images/facebook.png) center no-repeat;
+    background-size: 30px;
+
+}
+.link{
+    background: url(/Flexbox/Nested-flex/images/linkedln.png) center no-repeat;
+    background-size: 30px;
+
+}
+.tw{
+    background: url(/Flexbox/Nested-flex/images/twitter.png) center no-repeat;
+    background-size: 30px;
+
+}
+.social a{
+    display: block;
+    padding: 2em;
+    margin-top: 7em;
+}
+section nav ul a:hover{
+    color: rgb(129, 129, 239);
+    border: 2px dashed rgb(246, 191, 90);
+    border-radius: 30px;
+}
+.dropdown{
+    display: none;
+}
+.dropdown li a{
+    display: inline-block;
+    margin: 0%;
+    width: 100%;
+}
+section ul li:hover .dropdown{
+    display: block;
+}

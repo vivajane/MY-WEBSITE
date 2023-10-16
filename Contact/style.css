@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.maps-g{
+    width: 100%;
+    height: 400px;
+    border-bottom: 1px solid rgb(51, 45, 45);
+}
+.maps-g iframe{
+    width: 100%;
+    height: 400px;
+}
+form{
+    display: block;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(132, 122, 122);
+}
+article{
+    margin: 10em 0;
+}
+aside{
+    width: 60%;
+    margin-top: 10em;
+    color: bisque;
+}
+article h3{
+    color: rgb(119, 193, 168);
+    padding: 3em 0;
+}
+.get{
+    color: beige;
+    padding: 1.5em 0;
+}
+
+.langs, .langs input {
+    color: rgb(164, 232, 232);
+}
+.nav-bar{
+    display: flex;
+}
+nav ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.link{
+    background: url(/Udemy-Courses/My-Website/Contact/images/linkedln.png) center no-repeat;
+    background-size: 30px;
+}
+.tw{
+    background: url(/Udemy-Courses/My-Website/Contact/images/twitter.png) center no-repeat;
+    background-size: 30px;
+
+}
+.fb{
+    background: url(/Udemy-Courses/My-Website/Contact/images/facebook.png) center no-repeat;
+    background-size: 30px;
+
+}
+.nav-bar a {
+    display: block;
+    padding: 2em;
+    margin-top: 7em;
+}
+.one form input, .one form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px ;
+    background-color: rgb(93, 91, 91);
+
+}
+button:hover{
+    border-color: rgb(216, 223, 220);
+    background-color: rgb(156, 171, 166);
+}
+
+
+
+
