@@ -5,7 +5,7 @@
     margin: 0;
 }
 body{
-    background: url(/Udemy-Courses/My-Website/images/img2.jpg) center no-repeat;
+    background: url(/Udemy-Courses/My-Website/Home/img2.jpg) center no-repeat;
     background-position-x: right;
     background-size: 50%;
     background-color: black;
@@ -120,8 +120,3 @@ section nav ul a:hover{
 section ul li:hover .dropdown{
     display: block;
 }
-
-
-    
-
-
