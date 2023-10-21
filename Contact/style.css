@@ -54,16 +54,16 @@ a{
     text-decoration: none;
 }
 .link{
-    background: url(/Udemy-Courses/My-Website/Contact/images/linkedln.png) center no-repeat;
+    background: url(/images/linkedln.png) center no-repeat;
     background-size: 30px;
 }
 .tw{
-    background: url(/Udemy-Courses/My-Website/Contact/images/twitter.png) center no-repeat;
+    background: url(/images/twitter.png) center no-repeat;
     background-size: 30px;
 
 }
 .fb{
-    background: url(/Udemy-Courses/My-Website/Contact/images/facebook.png) center no-repeat;
+    background: url(/images/facebook.png) center no-repeat;
     background-size: 30px;
 
 }
